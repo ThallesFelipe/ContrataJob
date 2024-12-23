@@ -9,9 +9,11 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <div style={{ flex: 1 }}> { }
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div> { }
       <Footer />
     </Router>
   )
